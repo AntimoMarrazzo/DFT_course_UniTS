@@ -1,0 +1,8 @@
+&bands
+    prefix = 'ni'
+    outdir = './out'
+    filband = 'ni_bands_pbe_up'
+    spin_component = 1
+    lsym = .false.
+/
+~        
