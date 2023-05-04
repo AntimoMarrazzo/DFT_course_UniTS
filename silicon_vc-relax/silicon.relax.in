@@ -1,0 +1,32 @@
+&CONTROL
+   calculation      = 'relax'
+   outdir           = './out'
+   pseudo_dir       = '../pseudo/'
+   prefix           = 'si'
+   tprnfor = .true.
+   tstress = .true.
+   etot_conv_thr =   2.0000000000d-05
+   forc_conv_thr =   1.0000000000d-04
+/
+&SYSTEM
+   ibrav            = 2
+   celldm(1)        = 10.262
+   ecutwfc          = 40.0
+   ntyp             = 1
+   nat              = 2
+   nbnd             = 5
+/
+&ELECTRONS
+   conv_thr         = 1.d-12
+/
+&IONS
+/
+ATOMIC_SPECIES
+Si 28.086  Si.pbe_PseudoDojo.UPF
+
+K_POINTS automatic
+12 12 12  0 0 0
+
+ATOMIC_POSITIONS alat
+Si  0.0000000000 0.0000000000 0.0000000000
+Si  0.2500000000 0.2500000000 0.300000000
