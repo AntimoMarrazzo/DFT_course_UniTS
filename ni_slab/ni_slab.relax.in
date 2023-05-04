@@ -17,7 +17,7 @@
   ecutrho =   320
   ecutwfc =   40
   ibrav = 0
-  nat = 3
+  nat = 12
   ntyp = 1
   occupations = 'smearing'
   smearing = 'mv'
@@ -30,6 +30,8 @@
   electron_maxstep = 600
   mixing_beta =   7.0000000000d-01
   mixing_mode = 'plain'
+/
+&IONS
 /
 ATOMIC_SPECIES
 Ni     58.6934 ni_pbe_v1.4.uspp.F.UPF
@@ -51,4 +53,4 @@ K_POINTS automatic
 CELL_PARAMETERS angstrom
       3.5241400000       0.0000000000       0.0000000000
       0.0000000000       3.5241400000       0.0000000000
-      0.0000000000       0.0000000000       20.0
+      0.0000000000       0.0000000000       20.000000000
