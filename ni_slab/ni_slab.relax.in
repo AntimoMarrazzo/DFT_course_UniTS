@@ -19,8 +19,8 @@
   ntyp = 1
   occupations = 'smearing'
   smearing = 'mv'
-  nspin = 2
-  starting_magnetization(1) = 0.6
+  !nspin = 2
+  !starting_magnetization(1) = 0.6
 /
 &ELECTRONS
   conv_thr =   1.0000000000d-8
