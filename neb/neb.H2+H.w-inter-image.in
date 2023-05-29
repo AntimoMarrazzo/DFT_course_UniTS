@@ -16,8 +16,8 @@ END_PATH_INPUT
 BEGIN_ENGINE_INPUT
 &CONTROL
    prefix      = "H2+H.w-inter-image"
-   outdir      = "/out/",
-   pseudo_dir = "./pseudo/",
+   outdir      = "./out/",
+   pseudo_dir = "../pseudo/",
 /
 &SYSTEM
    ibrav     = 8,
