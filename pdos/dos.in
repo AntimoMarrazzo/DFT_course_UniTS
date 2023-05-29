@@ -1,6 +1,6 @@
  &dos
     outdir='./out'
-    prefix='ni'
-    fildos='ni.dos',
-    Emin=5.0, Emax=25.0, DeltaE=0.1
+    prefix='si'
+    fildos='si.dos',
+    Emin=2.0, Emax=9.0, DeltaE=0.1
  /
